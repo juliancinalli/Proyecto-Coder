@@ -336,3 +336,13 @@ footer {
     }
     
 }
+
+.navbar-nav {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+    
+
+}
