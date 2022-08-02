@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-
 footer {
     color: rgb(0, 0, 0);
     margin-top: 20px;
@@ -14,34 +13,23 @@ footer {
 }
 
 body {
-    
     font-family: 'Poppins', sans-serif;
     background-color:  #ffdeef;
-
 }
 
-               
 .espacioEntrePalabras {
-
     padding-right: 15px;
-
-
-
 }
 
 .topLine {
-
     display: flex;
     flex-wrap: wrap;
     background-color: #ffdeef;
     justify-content: right;
     background-color: #fdbdde;
-
 }
 
-
 h1 {
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -49,40 +37,25 @@ h1 {
 }
 
 header h2 {
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-
-
-
 
 main h2 {
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
-
 }
-
 
 li {
-
     list-style-type: none;
-
 }
 
-
 a {
-
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: unset;
-    
-    
-
 }
 
 .navegacion {
@@ -90,72 +63,46 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 25px;
-
 }
 
-.navegacion2 {
-    border: black 1px solid; padding: 10px;
-    border-radius: 5%;
-    font-weight:500;
-    font-size: 19px;
-    margin: 0 15px 0 15px;
-
-    }
-
 .productos {
-
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 1000px;
     height: 1000px;
     margin: auto;
-          
-
-
 }
 
 .servicios {
-    
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 1200px;
     height: 600px;
     margin: auto;
-
 }
 
-
 .logo {
-
-
     display: flex;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
-
 }
 
 .tamañoGeneral {
-
     width: 300px;
     height: 300px;
     padding: 15px;
-
 }
 
 .tamañoServicios {
-
     width: 250px;
     height: 250px;
     padding: 15px;
-
 }
 
-
 /* GRID INDEX */
-
 
 .bodyIndexGrid {
     display: grid;
@@ -165,8 +112,6 @@ a {
     "redesSociales"
     "footer"
     ;
-
-
 }
 
 header {
@@ -175,7 +120,6 @@ header {
 
 .productos {
     grid-area: productos;
-
 }
 
 .redesSociales {
@@ -193,10 +137,7 @@ footer {
     grid-template-areas:
     "header"
     "servicios"
-    "footer"
-    ;
-
-
+    "footer";
 }
 
 header {
@@ -205,7 +146,6 @@ header {
 
 .servicios {
     grid-area: servicios;
-
 }
 
 footer {
@@ -219,10 +159,7 @@ footer {
     grid-template-areas:
     "header"
     "productos"
-    "footer"
-    ;
-
-
+    "footer";
 }
 
 header {
@@ -231,7 +168,6 @@ header {
 
 .productos {
     grid-area: productos;
-
 }
 
 footer {
@@ -245,10 +181,7 @@ footer {
     grid-template-areas:
     "header"
     "mainFaq"
-    "footer"
-    ;
-
-
+    "footer";
 }
 
 header {
@@ -271,10 +204,7 @@ footer {
     grid-template-areas:
     "header"
     "mainContacto"
-    "footer"
-    ;
-
-
+    "footer";
 }
 
 header {
@@ -283,7 +213,6 @@ header {
 
 .mainContacto {
     grid-area: mainContacto;
-
 }
 
 footer {
@@ -295,46 +224,36 @@ footer {
 @media (max-width: 1200px) {
     .servicios {
         width: 1000px;
-        height: 1333px;
-                           
+        height: 1333px;               
     }
-   
 }
 
 @media (max-width: 1000px) {
     .productos {
         width: 666px;
         height: 1666px;
-                         
-        
     }
 
     .servicios {
         width: 666px;
-        height: 1666px;
-                           
+        height: 1666px;               
     }
-
-
 }
 
 @media (max-width: 670px) {
     .productos {
         width: 333px;
-        height: 3332px;
-                         
+        height: 3332px;              
     }
 
-       
     .navegacion2 {
         margin: 5px;
     }
+
     .servicios {
         width: 333px;
-        height: 3332px;
-                           
+        height: 3332px;  
     }
-    
 }
 
 .navbar-nav {
@@ -343,6 +262,5 @@ footer {
     justify-content: space-around;
     margin: auto;
     width: 100%;
-    
-
 }
+
