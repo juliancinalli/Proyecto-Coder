@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@import "variables", "header", "grid-area";
+
+footer {
+  color: $color-footer;
+  margin-top: 20px;
+  background-color: #fdbdde;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: $background-body-color;
+}
+
+header h2, main h2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: unset;
+}
+
+.productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+}
+
+.servicios {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+}
+
+.tamañoGeneral {
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+}
+
+.tamañoServicios {
+  width: 250px;
+  height: 250px;
+  padding: 15px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1200px) {
+  .servicios {
+    width: 1000px;
+    height: 1333px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .productos, .servicios {
+    width: 666px;
+    height: 1666px;
+  }
+}
+
+@media (max-width: 670px) {
+  .productos {
+    width: 333px;
+    height: 3332px;
+  }
+
+  .navegacion2 {
+    margin: 5px;
+  }
+
+  .servicios {
+    width: 333px;
+    height: 3332px;
+  }
+}
+
+.navbar-nav {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
+}

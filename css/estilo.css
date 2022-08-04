@@ -1,0 +1,183 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+h1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 45px 0;
+  color: black; }
+
+.navegacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px; }
+
+.espacioEntrePalabras {
+  padding-right: 15px; }
+
+.topLine {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffdeef;
+  justify-content: right;
+  background-color: #fdbdde; }
+
+.logo {
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+/* GRID INDEX */
+.bodyIndexGrid {
+  display: grid;
+  grid-template-areas: "header" "productos" "redesSociales" "footer"; }
+
+header {
+  grid-area: header; }
+
+.productos {
+  grid-area: productos; }
+
+.redesSociales {
+  grid-area: redesSociales; }
+
+footer {
+  grid-area: footer; }
+
+/* GRID SERVICIOS */
+.bodyServiciosGrid {
+  display: grid;
+  grid-template-areas: "header" "servicios" "footer"; }
+
+header {
+  grid-area: header; }
+
+.servicios {
+  grid-area: servicios; }
+
+footer {
+  grid-area: footer; }
+
+/* GRID PRODUCTOS */
+.bodyProductosGrid {
+  display: grid;
+  grid-template-areas: "header" "productos" "footer"; }
+
+header {
+  grid-area: header; }
+
+.productos {
+  grid-area: productos; }
+
+footer {
+  grid-area: footer; }
+
+/* GRID FAQ */
+.bodyFaqGrid {
+  display: grid;
+  grid-template-areas: "header" "mainFaq" "footer"; }
+
+header {
+  grid-area: header; }
+
+.mainFaq {
+  grid-area: mainFaq; }
+
+footer {
+  grid-area: footer; }
+
+/* GRID CONTACTO */
+.bodyContactoGrid {
+  display: grid;
+  grid-template-areas: "header" "mainContacto" "footer"; }
+
+header {
+  grid-area: header; }
+
+.mainContacto {
+  grid-area: mainContacto; }
+
+footer {
+  grid-area: footer; }
+
+footer {
+  color: black;
+  margin-top: 20px;
+  background-color: #fdbdde; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffdeef; }
+
+header h2, main h2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: unset; }
+
+.productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 1000px;
+  margin: auto; }
+
+.servicios {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 600px;
+  margin: auto; }
+
+.tamañoGeneral {
+  width: 300px;
+  height: 300px;
+  padding: 15px; }
+
+.tamañoServicios {
+  width: 250px;
+  height: 250px;
+  padding: 15px; }
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  .servicios {
+    width: 1000px;
+    height: 1333px; } }
+
+@media (max-width: 1000px) {
+  .productos, .servicios {
+    width: 666px;
+    height: 1666px; } }
+
+@media (max-width: 670px) {
+  .productos {
+    width: 333px;
+    height: 3332px; }
+  .navegacion2 {
+    margin: 5px; }
+  .servicios {
+    width: 333px;
+    height: 3332px; } }
+
+.navbar-nav {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-around;
+  margin: auto;
+  width: 100%; }
