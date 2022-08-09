@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-@import "variables", "header", "grid-area";
+@import "variables", "header", "grid-area", "maps", "extend", "mixin";
 
 footer {
   color: $color-footer;
